@@ -5,6 +5,12 @@
 }
 
 @font-face {
+    font-family: 'Mulish';
+    src: url('../fonts/Mulish/Mulish-Regular.ttf') format('truetype');
+    font-display: swap;
+}
+
+@font-face {
     font-family: 'OpenSans';
     src: url('../fonts/OpenSans/OpenSans-Regular.ttf') format('truetype');
     font-display: swap;
