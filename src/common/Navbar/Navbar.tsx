@@ -72,6 +72,8 @@ export const Navbar = (): JSX.Element => {
 const Container = styled.div`
   background: #363740;
   width: 255px;
+  flex-shrink: 0;
+  height: 100vh;
 `
 
 const MainLink = styled(Link)`

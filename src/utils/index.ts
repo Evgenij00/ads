@@ -1,1 +1,2 @@
-export {palette} from './pallete'
+export { palette } from './pallete'
+export { generateRandomId } from './generateRandomId'

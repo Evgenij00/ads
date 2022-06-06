@@ -3,12 +3,14 @@ import styled from 'styled-components'
 import { BrowserRouter } from 'react-router-dom'
 
 import { Navbar } from 'common'
+import { ApplicationsList } from 'modules'
 
 export const AppContent = (): JSX.Element => {
   return (
     <Container>
       <BrowserRouter>
         <Navbar />
+        <ApplicationsList />
       </BrowserRouter>
     </Container>
   )
